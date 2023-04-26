@@ -16,7 +16,7 @@ class _SplaceSceenState extends State<SplaceSceen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 5), () {
+    Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
@@ -29,8 +29,11 @@ class _SplaceSceenState extends State<SplaceSceen> {
   Widget build(BuildContext context) {
     return Scaffold(body: 
     Container(
+     
       child : Center(
-      child : Image.asset('assets/images/bike.gif')
+
+      child : Image.asset('assets/images/bike2.gif'),
+
       )
       )
       );

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_application_1/splace_screen.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'EGrocerry',
       theme: ThemeData(
-       
+
         primarySwatch: Colors.blue,
       ),
       home: SplaceSceen(),
