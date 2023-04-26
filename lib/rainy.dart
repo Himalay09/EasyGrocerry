@@ -9,7 +9,136 @@ class RainyState extends State<Rainy>{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("here is Rainy fruits"),
+      body: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 40),
+
+              child: Text("Let's Order Fress Common Fruits For You",  style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold), ),
+            ),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+
+                Card(
+                  elevation: 8,
+                  color: Colors.green.shade300,
+                  child: Column(
+                    children: [
+                      Container(
+                        height: 100,
+                        width: 130,
+                        child: Image.asset('assets/images/lichi.png'),
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        height: 40,
+                        width: 80,
+                        child: Text("Lichi",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        height:20,
+                        width: 80,
+                        child: Text("120 rs kg",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
+                      )
+                    ],
+                  ),
+                ),
+
+                Card(
+                  elevation: 8,
+                  color: Colors.blue.shade300,
+                  child: Column(
+                    children: [
+                      Container(
+                        height: 100,
+                        width: 130,
+                        child: Image.asset('assets/images/pear.png'),
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        height: 40,
+                        width: 80,
+                        child: Text("Pear",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        height:20,
+                        width: 80,
+                        child: Text("60 rs kg",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            Container(
+              height: 40,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Card(
+                  elevation: 8,
+                  color: Colors.brown.shade300,
+                  child: Column(
+                    children: [
+                      Container(
+                        height: 100,
+                        width: 130,
+                        child: Image.asset('assets/images/javaplum.png'),
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        height: 40,
+                        width: 80,
+                        child: Text("JavaPlum",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        height:20,
+                        width: 80,
+                        child: Text("30 rs kg",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
+                      )
+                    ],
+                  ),
+                ),
+
+                Card(
+                  elevation: 8,
+                  color: Colors.pink.shade300,
+                  child: Column(
+                    children: [
+                      Container(
+                        height: 100,
+                        width: 130,
+                        child: Image.asset('assets/images/peach.png'),
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        height: 40,
+                        width: 80,
+                        child: Text("Peach",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
+                      ),
+                      Container(
+                        alignment: Alignment.center,
+                        height:20,
+                        width: 80,
+                        child: Text("80 rs kg",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
+                      )
+                    ],
+                  ),
+                ),
+
+              ],
+            )
+
+          ]
+        //
+      ),
+
     );
   }
 

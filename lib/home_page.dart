@@ -25,6 +25,7 @@ class Home extends StatelessWidget {
               Navigator.push(context, MaterialPageRoute(builder: (context) => HiddenDrawer()));
             },
                 child: Card(elevation: 8,
+          color: Colors.purple.shade100,
 
           child:Container(height: 130,
           width:110,
@@ -34,12 +35,14 @@ class Home extends StatelessWidget {
             ),
 
             Card(elevation: 8,
+                color: Colors.purple.shade100,
           child: Container(height:130,
           width: 110,
             child: Image.asset('assets/images/vegetables.png'),
             )
           ),
             Card(elevation: 8,
+                color: Colors.purple.shade100,
             child:Container(height:130,
               width: 110,
               child: Image.asset('assets/images/condiments.png'),
@@ -56,18 +59,21 @@ class Home extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Card(elevation: 8,
+                color: Colors.purple.shade100,
            child:Container(height: 130,
           width: 110,
           child: Image.asset('assets/images/dairy.png')
           ),
               ),
           Card(elevation: 8,
+            color: Colors.purple.shade100,
           child:Container(height: 130,
           width: 110,
           child: Image.asset('assets/images/bread.png')
           ),
           ),
               Card(elevation: 8,
+                color: Colors.purple.shade100,
               child:Container(height:130,
                 width: 110,
                 child: Image.asset('assets/images/snacks.png'),
@@ -85,6 +91,7 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Card(elevation: 8,
+              color: Colors.purple.shade100,
             child:Container(height: 130,
                 width: 110,
                 child: Image.asset('assets/images/health_drink.png')
@@ -92,13 +99,15 @@ class Home extends StatelessWidget {
             ),
 
             Card(elevation: 8,
+              color: Colors.purple.shade100,
             child:Container(height: 130,
                 width: 110,
-                child: Image.asset('assets/images/cold_drinks.png')
+                child: Image.asset('assets/images/cold_drink.png')
             ),
     ),
 
             Card(elevation: 8,
+              color: Colors.purple.shade100,
             child:Container(height:130,
               width: 110,
               child: Image.asset('assets/images/sauces.png'),
